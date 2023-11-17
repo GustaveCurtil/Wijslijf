@@ -89,7 +89,7 @@ nav a:nth-child(2):not(.dropdown a) { /* 'not()' staat daar omdat ie ander '.dro
 main {
     width: var(--breedte);
     max-width: var(--breedte-max);
-    min-height: 83vh;
+    min-height: calc(83vh - 100dvh);
     /* background-color: blue; */
 }
 
@@ -99,6 +99,6 @@ main {
 footer {
     width: var(--breedte);
     max-width: var(--breedte-max);
-    height: 2vh;
+    height: calc(2vh + 100dvh);
 }
 
