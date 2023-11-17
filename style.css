@@ -4,11 +4,45 @@
 }
 
 /*/ / / L A N D I N G S P A G I N A / / /*/
+.landingspagina {
+    color: var(--achtergrond-kleur);
+    background-color: var(--thema-kleur);
+}
 
 .landingspagina main {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--achtergrond-kleur);
 }
 
-.landingspagina h1 {
+/* .landingspagina h1 {
     color: var(--achtergrond-kleur);
+} */
+
+.slogan, .samenvatting {
+    text-align: center;
+}
+
+
+/*/ / / A A N B O D / / /*/
+.aanbod main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.poster {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    position: absolute;
 }
