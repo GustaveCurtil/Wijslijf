@@ -40,9 +40,12 @@
 
 img {
     width: 100%;
+    aspect-ratio: 9/5;
     object-fit: cover;
 }
 
 h3 {
     position: absolute;
+    color: var(--achtergrond-kleur);
+    font-size: 26px;
 }

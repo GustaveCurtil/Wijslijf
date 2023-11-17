@@ -84,13 +84,17 @@ nav a:nth-child(2):not(.dropdown a) { /* 'not()' staat daar omdat ie ander '.dro
     border-bottom: 2px solid var(--thema-kleur);
 }
 
-/*Main*/
+
+/*/ / / CONTENT / / /*/
 main {
     width: var(--breedte);
     max-width: var(--breedte-max);
     min-height: 83vh;
     /* background-color: blue; */
 }
+
+
+/*/ / / F O O T E R / / /*/
 
 footer {
     width: var(--breedte);
