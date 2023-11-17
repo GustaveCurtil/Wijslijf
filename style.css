@@ -1,0 +1,9 @@
+*, html {
+    margin:0;
+    padding: 0;
+}
+
+:root {
+    --thema-kleur: rgba(205, 116, 99, 1);
+    --achtergrond-kleur: rgba(255, 245, 245, 1);
+  }
