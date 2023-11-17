@@ -3,7 +3,12 @@
     padding: 0;
 }
 
-:root {
-    --thema-kleur: rgba(205, 116, 99, 1);
-    --achtergrond-kleur: rgba(255, 245, 245, 1);
-  }
+/*/ / / L A N D I N G S P A G I N A / / /*/
+
+.landingspagina main {
+    display: flex;
+}
+
+.landingspagina h1 {
+    color: var(--achtergrond-kleur);
+}
