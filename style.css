@@ -7,6 +7,7 @@
 .landingspagina {
     color: var(--achtergrond-kleur);
     background-color: var(--thema-kleur);
+    overflow: hidden;
 }
 
 .landingspagina main {
