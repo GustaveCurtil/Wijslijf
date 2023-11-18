@@ -6,14 +6,15 @@
 /*/ / / L A N D I N G S P A G I N A / / /*/
 .landingspagina {
     color: var(--achtergrond-kleur);
-    background-color: var(--thema-kleur);
     overflow-y: hidden;
+    background-image: url(media/Startpagina3.jpg);
+    background-size: cover;
 }
 
 .landingspagina main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     color: var(--achtergrond-kleur);
 }
 
