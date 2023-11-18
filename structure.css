@@ -31,14 +31,13 @@ header {
     height: 15svh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
-    /* background-color: rgb(27, 117, 117); */
 }
 
 h1 {
     height: 7svh;
     line-height: 7svh;
+    margin-top: 2svh;
 }
 
 nav {
@@ -88,7 +87,7 @@ nav a:nth-child(2):not(.dropdown a) { /* 'not()' staat daar omdat ie ander '.dro
 main {
     width: var(--breedte);
     max-width: var(--breedte-max);
-    min-height: calc(83vh - 100dvh);
+    min-height: 70svh;
     /* background-color: blue; */
 }
 
@@ -98,6 +97,6 @@ main {
 footer {
     width: var(--breedte);
     max-width: var(--breedte-max);
-    height: calc(2vh + 100dvh);
+    height: 15svh;
 }
 
