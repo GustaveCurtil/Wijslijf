@@ -5,7 +5,7 @@ landingspagina.addEventListener("click", (e) => {
     document.location.href="aanbod.html"
 })
 
-['click', 'touchstart', 'touchmove', 'touchend'].forEach(event => {
+['click', 'touchstart', 'touchmove', 'touchend', 'scroll'].forEach(event => {
     landingspagina.addEventListener(event, (e) => {
         console.log("yo")
         document.location.href="aanbod.html"

@@ -9,6 +9,7 @@
     overflow-y: hidden;
     background-image: url(media/Startpagina3.jpg);
     background-size: cover;
+    overflow-y: hidden;
 }
 
 .landingspagina main {
