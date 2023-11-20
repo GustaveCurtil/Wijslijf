@@ -12,3 +12,6 @@ const landingspagina = document.querySelector(".landingspagina");
 //     })
 // });
 
+document.body.addEventListener('touchmove', function(e) { 
+    e.preventDefault(); 
+});
