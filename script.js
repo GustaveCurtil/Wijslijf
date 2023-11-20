@@ -5,10 +5,10 @@ const landingspagina = document.querySelector(".landingspagina");
 //     document.location.href="aanbod.html"
 // })
 
-['touchend'].forEach(event => {
-    landingspagina.addEventListener(event, (e) => {
-        console.log("yo")
-        document.location.href="aanbod.html"
-    })
-});
+// ['touchend'].forEach(event => {
+//     landingspagina.addEventListener(event, (e) => {
+//         console.log("yo")
+//         document.location.href="aanbod.html"
+//     })
+// });
 
