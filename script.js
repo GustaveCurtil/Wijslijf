@@ -1,9 +1,9 @@
-const landingspagina = document.querySelector(".landingspagina")
+const landingspagina = document.querySelector(".landingspagina");
 
-landingspagina.addEventListener("click", (e) => {
-    console.log("yo")
-    document.location.href="aanbod.html"
-})
+// landingspagina.addEventListener("click", (e) => {
+//     console.log("yo")
+//     document.location.href="aanbod.html"
+// })
 
 ['click', 'touchstart', 'touchmove', 'touchend', 'scroll'].forEach(event => {
     landingspagina.addEventListener(event, (e) => {
