@@ -9,6 +9,7 @@
     color: var(--achtergrond-kleur);
     overflow-y: hidden;
     background-image: url(media/Startpagina3.jpg);
+    height: 100lvh; /*poging om bar ook kleur te geven*/
     background-size: cover;
     overscroll-behavior: none;
 }
@@ -26,7 +27,7 @@
 
 .slogan, .samenvatting {
     text-align: center;
-    font-family: 'Kulim Park', sans-serif;
+
     font-weight: 900;
 }
 
