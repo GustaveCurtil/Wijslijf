@@ -9,10 +9,9 @@
     color: var(--achtergrond-kleur);
     overflow-y: hidden;
     background-image: url(media/Startpagina3.jpg);
-    height: 100lvh; /*poging om bar ook kleur te geven*/
     background-size: cover;
     overscroll-behavior: none;
-    background-color: none;
+    background-color: var(--thema-kleur);
 }
 
 .landingspagina main {
@@ -33,11 +32,13 @@
 }
 
 .slogan {
-    font-size: 20px;
+    font-size: 24px;
+    font-family: 'Kulim Park', sans-serif;
+    /* transform: translateY(-20px); */
 }
 
 .samenvatting {
-    font-size: 22px;
+    font-size: 24x;
 }
 
 

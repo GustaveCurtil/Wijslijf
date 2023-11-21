@@ -57,6 +57,7 @@ header a {
 nav {
     width: 100%;
     display: flex;
+    margin-top: 1svh;
 }
 
 nav a {
