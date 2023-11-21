@@ -12,6 +12,7 @@
     height: 100lvh; /*poging om bar ook kleur te geven*/
     background-size: cover;
     overscroll-behavior: none;
+    background-color: none;
 }
 
 .landingspagina main {
