@@ -5,13 +5,9 @@ const landingspagina = document.querySelector(".landingspagina");
 //     document.location.href="aanbod.html"
 // })
 
-// ['touchend'].forEach(event => {
-//     landingspagina.addEventListener(event, (e) => {
-//         console.log("yo")
-//         document.location.href="aanbod.html"
-//     })
-// });
-
-document.body.addEventListener('touchmove', function(e) { 
-    e.preventDefault(); 
+['click', 'touchend'].forEach(event => {
+    landingspagina.addEventListener(event, (e) => {
+        console.log("yo")
+        document.location.href="aanbod.html"
+    })
 });

@@ -10,23 +10,32 @@
     overflow-y: hidden;
     background-image: url(media/Startpagina3.jpg);
     background-size: cover;
-    position: fixed;
     overscroll-behavior: none;
 }
 
 .landingspagina main {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
+
+}
+
+.landingspagina h1 {
     color: var(--achtergrond-kleur);
 }
 
-/* .landingspagina h1 {
-    color: var(--achtergrond-kleur);
-} */
-
 .slogan, .samenvatting {
     text-align: center;
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 900;
+}
+
+.slogan {
+    font-size: 24px;
+}
+
+.samenvatting {
+    font-size: 22px;
 }
 
 
@@ -35,7 +44,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: hidden;
     
 }
 .poster {
