@@ -5,7 +5,7 @@ const landingspagina = document.querySelector(".landingspagina");
 //     document.location.href="aanbod.html"
 // })
 
-['click', 'touchend'].forEach(event => {
+['click', 'touchend', 'keypress' ].forEach(event => {
     landingspagina.addEventListener(event, (e) => {
         console.log("yo")
         document.location.href="aanbod.html"

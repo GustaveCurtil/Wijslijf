@@ -11,13 +11,13 @@
     background-image: url(media/Startpagina3.jpg);
     background-size: cover;
     overscroll-behavior: none;
-    background-color: var(--thema-kleur);
+    background-color: var(--achtergrond-kleur);
 }
 
 .landingspagina main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -38,7 +38,7 @@
 }
 
 .samenvatting {
-    font-size: 24x;
+    font-size: 20px;
 }
 
 
@@ -46,7 +46,6 @@
 .aanbod main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between
     
 }
 .poster {
@@ -65,5 +64,5 @@ img {
 h3 {
     position: absolute;
     color: var(--achtergrond-kleur);
-    font-size: 26px;
+    font-size: 30px;
 }
