@@ -53,6 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 img {
@@ -65,4 +66,10 @@ h3 {
     position: absolute;
     color: var(--achtergrond-kleur);
     font-size: 30px;
+}
+
+
+/*/ / / OVER / / /*/
+ul {
+    list-style-position: inside
 }
