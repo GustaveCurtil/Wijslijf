@@ -53,7 +53,7 @@ h1 {
 header a {
     color: var(--thema-kleur);
     text-decoration: none;
-    margin-bottom: 2svh;
+    margin: 1svh 0;
 }
 
 nav {
