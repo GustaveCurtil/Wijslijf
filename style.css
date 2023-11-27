@@ -69,18 +69,26 @@ h3 {
 }
 
 
-/*/ / / OVER / / /*/
+/*/ / / OVER, INDIVIDUEEL/ / /*/
 ul {
     margin: 0 0 10px 0;
     list-style-position: inside
 }
 
-.over img {
-    margin: 20px 0;
+.over img, .individueel img {
+    margin: 10px 0;
 }
 
-.over p {
+.over p, .individueel p {
     margin: 0 0 10px 0;
+}
+
+h2 {
+    color: var(--thema-kleur);
+    border-bottom: 2px solid var(--thema-kleur);
+    display: inline-block;
+    padding: 0 0px;
+    margin: 10px 0;
 }
 
 /*/ / / CONTACT / / /*/

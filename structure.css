@@ -44,7 +44,7 @@ header {
 h1 {
     height: 6svh;
     line-height: 6svh;
-    margin-top: 3svh;
+    margin-top: 2svh;
     font-family: 'Kulim Park', sans-serif;
     font-size: 38px;
     font-weight: 900;
@@ -53,7 +53,8 @@ h1 {
 header a {
     color: var(--thema-kleur);
     text-decoration: none;
-    margin: 1svh 0;
+    margin-top: 1svh;
+    margin-bottom: 2svh;
 }
 
 nav {
@@ -114,18 +115,23 @@ main {
 
 /*/ / / F O O T E R / / /*/
 footer {
-    width: var(--breedte);
-    max-width: var(--breedte-max);
+    width: 100%;
     min-height: 5svh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     font-size: 12px;
-    color: var(--thema-kleur);
+    color: var(--achtergrond-kleur);
+    background-color: var(--thema-kleur);
 }
 
 footer a {
-    color: var(--thema-kleur);
+    color: var(--achtergrond-kleur);
     text-decoration: none;
+}
+
+footer p {
+    margin: 0 !important;
 }
 
