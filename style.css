@@ -71,7 +71,16 @@ h3 {
 
 /*/ / / OVER / / /*/
 ul {
+    margin: 0 0 10px 0;
     list-style-position: inside
+}
+
+.over img {
+    margin: 20px 0;
+}
+
+.over p {
+    margin: 0 0 10px 0;
 }
 
 /*/ / / CONTACT / / /*/
@@ -121,5 +130,6 @@ input[type=submit] {
     display: flex;
     justify-content: center;
     width: 50%;
+    margin-bottom: 15px;
 
 }
