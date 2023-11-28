@@ -54,8 +54,8 @@ h1 {
 header a {
     color: var(--thema-kleur);
     text-decoration: none;
-    margin-top: 1svh;
-    margin-bottom: 2svh;
+    margin-top: 10px;
+    margin-bottom: calc(2svh - 10px);
 }
 
 nav {
