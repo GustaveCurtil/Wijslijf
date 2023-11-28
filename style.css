@@ -139,13 +139,19 @@ h2 {
 }
 
 /*/ / / CONTACT / / /*/
+.contact p {
+    text-align: center;
+    margin: 0;
+    line-height: 1.6;
+}
+
 form {
     width: 100%;
  }
 
- form p {
-    margin: 0;
- }
+form p {
+    text-align: left !important;
+}
 
  input[type=text], textarea, select {
     width: 100%;
@@ -192,8 +198,3 @@ input[type=submit] {
     margin-bottom: 15px;
 }
 
-.contact p {
-    text-align: center;
-    margin: 0;
-    line-height: 1.6;
-}

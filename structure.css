@@ -39,6 +39,7 @@ header {
     flex-direction: column;
     text-align: center;
     color: var(--thema-kleur);
+    padding: 10px 0;
 }
 
 h1 {
