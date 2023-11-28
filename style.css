@@ -71,7 +71,8 @@ h3 {
 
 /*/ / / G R O E P S T R A J E C T E N / / */
 h4 {
-    margin-top: 10px;
+    padding-top: 20px;
+    text-align: center;
 }
 table  {
     width: 100%;
@@ -81,6 +82,7 @@ table  {
 
 td {
     width: 50%;
+    padding: 5px 0;
 }
 
 td:last-child {
@@ -89,7 +91,7 @@ td:last-child {
 
 tr {
     width: 50%;
-    border-bottom: 1px solid var(--thema-kleur);
+    border-bottom: 1px solid var(--content-kleur);
 }
 
 tr:last-child{
