@@ -153,6 +153,7 @@ form {
 
 form p {
     text-align: left !important;
+    margin: 0;
 }
 
  input[type=text], textarea, select {
