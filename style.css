@@ -54,6 +54,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 img {
@@ -68,6 +69,52 @@ h3 {
     font-size: 30px;
 }
 
+/*/ / / G R O E P S T R A J E C T E N / / */
+h4 {
+    margin-top: 10px;
+}
+table  {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+td {
+    width: 50%;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+tr {
+    width: 50%;
+    border-bottom: 1px solid var(--thema-kleur);
+}
+
+tr:last-child{
+    border-bottom: 0;
+}
+
+.traject a {
+    background-color: var(--thema-kleur);
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 25px;
+    color: var(--achtergrond-kleur);
+    text-decoration: none;
+    font-family: 'kulim park';
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 20px;
+    line-height: 1;
+}
 
 /*/ / / OVER, INDIVIDUEEL/ / /*/
 ul {
@@ -79,7 +126,7 @@ ul {
     margin: 10px 0;
 }
 
-.over p, .individueel p {
+.over p, .individueel p, .traject p {
     margin: 0 0 10px 0;
 }
 
